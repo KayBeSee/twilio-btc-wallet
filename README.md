@@ -13,3 +13,7 @@ Twilio function for getting new Bitcoin wallet address from image of XPub
 Get receive addresses for your wallet without having to download an app
 
 Obviously this isn't good for privacy since you are storing an image of your XPub on someone else's server, but just a fun project to learn about the Twilio Node Helper Library and CLI.
+
+Video: [https://twitter.com/KayBeSee/status/1298261868092387329](https://twitter.com/KayBeSee/status/1298261868092387329)
+
+![Image of Text](./example-text.jpeg)
