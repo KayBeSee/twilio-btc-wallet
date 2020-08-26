@@ -1,8 +1,8 @@
 require('dotenv').config()
 
 const { uploadFunctionVersion } = require('./functions');
-const { build } = require('./build');
-const { deploy } = require('./deployment');
+const { build } = require('./cli-utils/build');
+const { deploy } = require('./cli-utils/deployment');
 
 const index = async () => {
   const functionVersionResp = await uploadFunctionVersion(process.env.SERVICE_SID, process.env.FUNCTION_SID, 'get-new-address-function.js', 'twilio-fun');
